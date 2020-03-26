@@ -1,0 +1,12 @@
+working_dir: /home/ec2-user/anusha
+
+service_list:
+- httpd
+- firewalld
+- nfs
+
+share_paths:
+  nfs: /mnt/nfs
+  cifs: /mnt/cifs
+  iscsi: /mnt/iscsi
+
